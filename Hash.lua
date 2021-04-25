@@ -64,7 +64,7 @@ API:
 
 --]]---------------------------------------------------------------------------
 
-local Base64 = require(script.Base64)
+local Base64 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Balance/main/Hash/Base64.lua"))()
 
 --------------------------------------------------------------------------------
 -- LOCALIZATION FOR VM OPTIMIZATIONS
