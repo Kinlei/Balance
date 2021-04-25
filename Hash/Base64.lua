@@ -133,4 +133,4 @@ function Base64.Decode(Input)
 	return table.concat(NewOutput)
 end
 
-return
+return Base64
