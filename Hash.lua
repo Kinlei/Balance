@@ -1354,4 +1354,4 @@ block_size_for_HMAC = {
 	[sha.sha3_512] = (1600 - 2 * 512) / 8;
 }
 
-return
+return sha;
